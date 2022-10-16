@@ -16,7 +16,7 @@
   \**********************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"dataPersons\": function() { return /* binding */ dataPersons; }\n/* harmony export */ });\nfunction dataPersons() {\n  const data = {\n    name: 'Маг',\n    health: 90,\n  };\n  let result = 0;\n  if (data.health >= 50) {\n    result = 'healthy';\n  }\n  if (data.health >= 15 && data.health < 50) {\n    result = 'wounded';\n  }\n  if (data.health < 15) {\n    result = 'critical';\n  }\n  return result;\n}\n\n\n//# sourceURL=webpack://pure-function/./src/total.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"dataPersons\": function() { return /* binding */ dataPersons; }\n/* harmony export */ });\nfunction dataPersons(name, health) {\n  const person = { name, health };\n  let result;\n  if (person.health >= 50) {\n    result = 'healthy';\n  }\n  if (person.health >= 15 && person.health < 50) {\n    result = 'wounded';\n  }\n  if (person.health < 15) {\n    result = 'critical';\n  }\n  return result;\n}\n\n\n//# sourceURL=webpack://pure-function/./src/total.js?");
 
 /***/ })
 
