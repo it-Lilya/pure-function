@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1665954082101" clover="3.2.0">
-  <project timestamp="1665954082101" name="All files">
+<coverage generated="1666036267880" clover="3.2.0">
+  <project timestamp="1666036267880" name="All files">
     <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1" elements="17" coveredelements="17" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="total.js" path="/Users/lilya/pure-function/src/total.js">
       <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
